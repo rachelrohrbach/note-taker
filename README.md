@@ -1,13 +1,13 @@
 # Note-Taker
 
-## Table of contents
-* [General info](#general-info)
+## Table of Contents
+* [General Info](#general-info)
 * [Technologies](#technologies)
 * [Screenshots](#screenshots)
 * [Credits](#credits)
 * [License](#license)
 
-## General info
+## General Info
 This project is an application that can be used to write, save, and delete notes. It uses an express backend and saves and retrieves note data from a JSON file. 
 
 Link to deployed application on Heroku: https://express-take-notes.herokuapp.com/ 
