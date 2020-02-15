@@ -20,15 +20,15 @@ function writeNotesData(notesData) {
 }
 
 function getId(notesData) {
-  if(notesData.length === 0) {
+  if (notesData.length === 0) {
     return 0;
   }
 
   notesData.sort((a, b) => a.id - b.id);
 
   const nextIndexAfterLast = notesData.length;
-  for(let i = 0; i < nextIndexAfterLast; i++) {
-    if(notesData[i].id !== i) {
+  for (let i = 0; i < nextIndexAfterLast; i++) {
+    if (notesData[i].id !== i) {
       return i;
     }
   }
